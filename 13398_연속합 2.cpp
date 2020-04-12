@@ -64,7 +64,7 @@ int main(void){
         if(v[i] < 0){
             int left = getLeftMax(i-1,0);
             int right = getMax(i+1,len-1);
-             printf("%d %d %d\n",v[i],left,right);
+            //  printf("%d %d %d\n",v[i],left,right);
             if(left+right > answer) answer = left+right;
         }
     }
